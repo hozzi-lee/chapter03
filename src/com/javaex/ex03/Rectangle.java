@@ -18,7 +18,7 @@ public class Rectangle {
 	
 	// method
 	public boolean equals(Rectangle rect) {
-		return this.width == rect.width && this.height == rect.height;
+		return (this.width == rect.width) && (this.height == rect.height);
 	}
 
 }
