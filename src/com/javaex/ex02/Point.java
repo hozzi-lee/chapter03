@@ -42,11 +42,11 @@ public class Point {
 	}
 
 	public boolean equals(Point point) {
-		return (this.x == point.x &&  this.y == point.y);
+		return (this.x == point.x) && (this.y == point.y);
 	}
 	@Override
 	public boolean equals(Object obj) {
-		return (this.x == ((Point)obj).x &&  this.y == ((Point)obj).y);
+		return (this.x == ((Point)obj).x) && (this.y == ((Point)obj).y);
 	}
 
 }
